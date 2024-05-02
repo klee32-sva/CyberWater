@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7g5jtmp1qra8"]
+
+[ext_resource type="ArrayMesh" uid="uid://cdeg7k1nngtwb" path="res://alembic/3d models.obj" id="1_bfkbh"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="3dModels" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.111854, 0, -4.45746)
+mesh = ExtResource("1_bfkbh")
